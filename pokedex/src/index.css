@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn {
+    @apply bg-blue-700 text-white px-6 py-1 rounded-xl hover:bg-blue-200  hover:text-black mx-auto
+  }
+
+  .head {
+    height: 600px;
+    background-image: url('images/head-img.jpg');
+    background-size: cover;
+  
+  }
+  .telaInfo{
+    height: 100vh;
+  }
+    
+
+}
